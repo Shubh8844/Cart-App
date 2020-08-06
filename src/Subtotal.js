@@ -16,10 +16,10 @@ export default function Subtotal()
       renderText={(value)=>(
         <>
         <p> 
-          SubToatal ({basket.length} items) :<strong>{value}</strong>
+          SubTotal ({basket.length} items) :<strong>{value}</strong>
         </p>
           <small className="subTotal__gift">
-          <input type="checkbox" />This order conatins gift
+          <input type="checkbox" />This order contains gift
           </small>
         
         </>

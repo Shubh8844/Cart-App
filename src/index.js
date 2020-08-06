@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import App from "./App";
 import {StateProvider} from "./StateProvider"
 import reducer,{initialState} from "./reducer"
+require('dotenv').config()
 const rootElement = document.getElementById("root");
 
 

@@ -45,13 +45,7 @@ export default function Header() {
         <span className="header__optionsLineTwo">Order</span>
         </div>
       </Link>
-      {/*3rd Link*/}
-      <Link to="/login" className="header__link">
-        <div className="header__options">  
-        <span className="header__optionsLineOne">Your</span>
-        <span className="header__optionsLineTwo">Prime</span>
-        </div>
-      </Link>
+     
       {/*4thLink*/}
       <Link to="/checkout" className="header__link">
         <div className="header__optionBaskets">

@@ -41,7 +41,7 @@ export default function Login() {
         />
       </Link>
       <div className="login__container">
-        <h1>Sign In</h1>
+        <h1>Sign In/Sign Up</h1>
         <form>
           <h5>E-mail</h5>
           <input
