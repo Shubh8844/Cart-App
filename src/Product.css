@@ -24,6 +24,7 @@
 }
 .product__title{
   font-weight:600;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .product > img {
   max-height: 200px;

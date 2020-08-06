@@ -26,7 +26,7 @@ const addToBasket= ()=>{
       <strong>{price}</strong>
     </p>
     <div className="product__rating">
-      { Array(rating).fill().map(_ => <p>&#11088;</p>)}
+      { Array(rating).fill().map(_ => <span role="img">⭐</span>)}
     </div>
     </div>
     
